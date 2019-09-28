@@ -72,12 +72,7 @@ paths:
               withdrawal_amount:
                 type: string
                 example: Rs. 20,000.00
-        400:
-          description: The specified pin is invalid (e.g. not a number).
-        404:
-          description: An account with the specified pin was not found.
-        default:
-          description: Unexpected error    
+         
 
 
 
